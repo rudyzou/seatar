@@ -6,17 +6,17 @@
 0 silly argv }
 1 notice cli v3.22.1
 2 verbose rootPath /Users/zoubinjie/dev/workspace/front_end/lowcode-ecology
-3 info current version 1.0.4
+3 info current version 1.0.5
 4 silly isAnythingCommitted
 5 verbose isAnythingCommitted 1
 6 silly currentBranch
 7 verbose currentBranch master
 8 silly remoteBranchExists
 9 silly isBehindUpstream
-10 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 0
+10 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 1
 11 silly hasTags
 12 verbose hasTags true
-13 silly git-describe.sync "v1.0.4-1-gddf0a01-dirty" => {"lastTagName":"v1.0.4","lastVersion":"v1.0.4","refCount":"1","sha":"ddf0a01","isDirty":true}
+13 silly git-describe.sync "v1.0.5-0-gb2a3f2d-dirty" => {"lastTagName":"v1.0.5","lastVersion":"v1.0.5","refCount":"0","sha":"b2a3f2d","isDirty":true}
 14 warn force-publish all packages
 15 info Assuming all packages changed
 16 verbose updated @seatar/antd-materials
@@ -27,9 +27,9 @@
 21 info execute Skipping releases
 22 silly lifecycle "preversion" starting in "seatar-lowcode-ecology"
 23 info lifecycle seatar-lowcode-ecology@1.0.0~preversion: seatar-lowcode-ecology@1.0.0
-24 warn lifecycle The node binary used for scripts is /var/folders/qq/km_6c5710nb5whttqsh9lxwm0000gn/T/yarn--1676104231795-0.5775235408865405/node but npm is using /Users/zoubinjie/.nvm/versions/node/v14.21.2/bin/node itself. Use the `--scripts-prepend-node-path` option to include the path for the node binary npm was executed with.
+24 warn lifecycle The node binary used for scripts is /var/folders/qq/km_6c5710nb5whttqsh9lxwm0000gn/T/yarn--1676104441219-0.2527192382317873/node but npm is using /Users/zoubinjie/.nvm/versions/node/v14.21.2/bin/node itself. Use the `--scripts-prepend-node-path` option to include the path for the node binary npm was executed with.
 25 verbose lifecycle seatar-lowcode-ecology@1.0.0~preversion: unsafe-perm in lifecycle true
-26 verbose lifecycle seatar-lowcode-ecology@1.0.0~preversion: PATH: /Users/zoubinjie/dev/workspace/front_end/lowcode-ecology/node_modules/npm-lifecycle/node-gyp-bin:/Users/zoubinjie/dev/workspace/front_end/lowcode-ecology/node_modules/.bin:/var/folders/qq/km_6c5710nb5whttqsh9lxwm0000gn/T/yarn--1676104231795-0.5775235408865405:/Users/zoubinjie/dev/workspace/front_end/lowcode-ecology/node_modules/.bin:/Users/zoubinjie/.config/yarn/link/node_modules/.bin:/Users/zoubinjie/dev/workspace/front_end/lowcode-ecology/node_modules/.bin:/Users/zoubinjie/.nvm/versions/node/v14.21.2/libexec/lib/node_modules/npm/bin/node-gyp-bin:/Users/zoubinjie/.nvm/versions/node/v14.21.2/lib/node_modules/npm/bin/node-gyp-bin:/Users/zoubinjie/.nvm/versions/node/v14.21.2/bin/node_modules/npm/bin/node-gyp-bin:/Users/zoubinjie/.nvm/versions/node/v14.21.2/bin:/Users/zoubinjie/.nvm/versions/node/v18.14.0/bin:/Users/zoubinjie/.nvm/versions/node/v16.18.0/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/zoubinjie/.nvm/versions/node/v16.18.0/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin
+26 verbose lifecycle seatar-lowcode-ecology@1.0.0~preversion: PATH: /Users/zoubinjie/dev/workspace/front_end/lowcode-ecology/node_modules/npm-lifecycle/node-gyp-bin:/Users/zoubinjie/dev/workspace/front_end/lowcode-ecology/node_modules/.bin:/var/folders/qq/km_6c5710nb5whttqsh9lxwm0000gn/T/yarn--1676104441219-0.2527192382317873:/Users/zoubinjie/dev/workspace/front_end/lowcode-ecology/node_modules/.bin:/Users/zoubinjie/.config/yarn/link/node_modules/.bin:/Users/zoubinjie/dev/workspace/front_end/lowcode-ecology/node_modules/.bin:/Users/zoubinjie/.nvm/versions/node/v14.21.2/libexec/lib/node_modules/npm/bin/node-gyp-bin:/Users/zoubinjie/.nvm/versions/node/v14.21.2/lib/node_modules/npm/bin/node-gyp-bin:/Users/zoubinjie/.nvm/versions/node/v14.21.2/bin/node_modules/npm/bin/node-gyp-bin:/Users/zoubinjie/.nvm/versions/node/v14.21.2/bin:/Users/zoubinjie/.nvm/versions/node/v18.14.0/bin:/Users/zoubinjie/.nvm/versions/node/v16.18.0/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/zoubinjie/.nvm/versions/node/v16.18.0/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin
 27 verbose lifecycle seatar-lowcode-ecology@1.0.0~preversion: CWD: /Users/zoubinjie/dev/workspace/front_end/lowcode-ecology
 28 silly lifecycle seatar-lowcode-ecology@1.0.0~preversion: Args: [
 28 silly lifecycle   '-c',
@@ -57,10 +57,10 @@
 42 silly gitAdd   'packages/antd-pro-materials/package-lock.json',
 42 silly gitAdd   'lerna.json'
 42 silly gitAdd ]
-43 silly gitCommit chore(versions): 😊 publish v1.0.5
-44 verbose git [ 'commit', '-m', 'chore(versions): 😊 publish v1.0.5' ]
-45 silly gitTag v1.0.5
-46 verbose git [ 'tag', 'v1.0.5', '-m', 'v1.0.5' ]
+43 silly gitCommit chore(versions): 😊 publish v1.0.6
+44 verbose git [ 'commit', '-m', 'chore(versions): 😊 publish v1.0.6' ]
+45 silly gitTag v1.0.6
+46 verbose git [ 'tag', 'v1.0.6', '-m', 'v1.0.6' ]
 47 silly lifecycle No script for "postversion" in "@seatar/antd-materials", continuing
 48 silly lifecycle No script for "postversion" in "@seatar/antd-plugins", continuing
 49 silly lifecycle No script for "postversion" in "@seatar/antd-pro-materials", continuing
