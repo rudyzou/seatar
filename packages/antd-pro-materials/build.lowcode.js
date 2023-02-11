@@ -4,7 +4,7 @@ module.exports = {
   },
   plugins: [
     [
-      '@alifd/build-plugin-lowcode',
+      '@seatar/build-plugin-lowcode',
       {
         engineScope: '@alilc',
         builtinAssets: [
@@ -19,6 +19,14 @@ module.exports = {
                 library: 'moment'
               },
               {
+                package: 'dayjs',
+                version: '1.11.7',
+                urls: [
+                  'https://cdn.jsdelivr.net/npm/dayjs@1.11.7/dayjs.min.js'
+                ],
+                library: 'dayjs'
+              },
+              {
                 package: 'lodash',
                 library: '_',
                 urls: [
@@ -31,32 +39,31 @@ module.exports = {
               },
               {
                 package: '@ant-design/icons',
-                version: '4.7.0',
+                version: '5.0.1',
                 urls: [
-                  `//g.alicdn.com/code/npm/@ali/ant-design-icons-cdn/4.5.0/index.umd.min.js`
+                  'https://cdn.jsdelivr.net/npm/@ant-design/icons@5.0.1/dist/index.umd.min.js'
                 ],
                 library: 'icons'
               },
               {
                 package: 'antd',
-                version: '4.23.0',
+                version: '5.1.7',
                 urls: [
-                  `//g.alicdn.com/code/lib/antd/4.23.0/antd.min.js`,
-                  `//g.alicdn.com/code/lib/antd/4.23.0/antd.min.css`
+                  'https://cdn.jsdelivr.net/npm/antd@5.1.7/dist/antd.min.js'
                 ],
                 library: 'antd'
               },
               {
-                package: '@alilc/antd-lowcode-materials',
-                version: '1.0.7',
+                package: '@seatar/antd-materials',
+                version: '1.0.4',
                 library: 'AntdLowcode',
                 urls: [
-                  'https://cdn.scredit.sg/th/seada/live/antd-lowcode-materials@1.0.7/lowcode/view.js',
-                  'https://cdn.scredit.sg/th/seada/live/antd-lowcode-materials@1.0.7/lowcode/view.css'
+                  'https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.4/build/lowcode/view.js',
+                  'https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.4/build/lowcode/view.css'
                 ],
                 editUrls: [
-                  'https://cdn.scredit.sg/th/seada/live/antd-lowcode-materials@1.0.7/lowcode/view.js',
-                  'https://cdn.scredit.sg/th/seada/live/antd-lowcode-materials@1.0.7/lowcode/view.css'
+                  'https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.4/build/lowcode/view.js',
+                  'https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.4/build/lowcode/view.css'
                 ]
               }
             ],
@@ -64,13 +71,13 @@ module.exports = {
               {
                 exportName: 'AlilcAntdLowcodeMaterialsMeta',
                 npm: {
-                  package: '@alilc/antd-lowcode-materials',
-                  version: '1.0.7'
+                  package: '@seatar/antd-materials',
+                  version: '1.0.4'
                 },
-                url: 'https://cdn.scredit.sg/th/seada/live/antd-lowcode-materials@1.0.7/lowcode/meta.js',
+                url: 'https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.4/build/lowcode/meta.js',
                 urls: {
                   default:
-                    'https://cdn.scredit.sg/th/seada/live/antd-lowcode-materials@1.0.7/lowcode/meta.js'
+                    'https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.4/build/lowcode/meta.js'
                 }
               }
             ],
@@ -92,7 +99,6 @@ module.exports = {
           }
         ]
       }
-    ],
-    './build.plugin.js'
+    ]
   ]
 }

@@ -11,3 +11,4 @@ deps.json
 package-lock.json
 yarn.lock
 miniapp/**/*.axml
+templates
