@@ -1,6 +1,6 @@
 {
   "name": "@seatar/build-plugin-lowcode",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "build plugin for component-to-lowcode",
   "main": "src/index.js",
   "keywords": [

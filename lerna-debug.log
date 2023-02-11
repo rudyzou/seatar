@@ -13,15 +13,64 @@
 7 verbose currentBranch master
 8 silly remoteBranchExists
 9 silly isBehindUpstream
-10 error Error: Command failed: git remote update
-10 error fatal: unable to access 'https://github.com/rudyzou/seatar.git/': LibreSSL SSL_connect: Operation timed out in connection to github.com:443
-10 error error: Could not fetch origin
-10 error
-10 error Fetching origin
-10 error
-10 error     at makeError (/Users/zoubinjie/dev/workspace/front_end/lowcode-ecology/node_modules/execa/index.js:174:9)
-10 error     at Function.module.exports.sync (/Users/zoubinjie/dev/workspace/front_end/lowcode-ecology/node_modules/execa/index.js:338:15)
-10 error     at Object.execSync (/Users/zoubinjie/dev/workspace/front_end/lowcode-ecology/node_modules/@lerna/child-process/index.js:26:16)
-10 error     at updateRemote (/Users/zoubinjie/dev/workspace/front_end/lowcode-ecology/node_modules/@lerna/version/lib/is-behind-upstream.js:26:16)
-10 error     at isBehindUpstream (/Users/zoubinjie/dev/workspace/front_end/lowcode-ecology/node_modules/@lerna/version/lib/is-behind-upstream.js:11:3)
-10 error     at VersionCommand.initialize (/Users/zoubinjie/dev/workspace/front_end/lowcode-ecology/node_modules/@lerna/version/index.js:154:9)
+10 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 0
+11 silly hasTags
+12 verbose hasTags true
+13 silly git-describe.sync "v1.0.4-1-gddf0a01-dirty" => {"lastTagName":"v1.0.4","lastVersion":"v1.0.4","refCount":"1","sha":"ddf0a01","isDirty":true}
+14 warn force-publish all packages
+15 info Assuming all packages changed
+16 verbose updated @seatar/antd-materials
+17 verbose updated @seatar/antd-plugins
+18 verbose updated @seatar/antd-pro-materials
+19 verbose updated @seatar/antd-setters
+20 verbose updated @seatar/build-plugin-lowcode
+21 info execute Skipping releases
+22 silly lifecycle "preversion" starting in "seatar-lowcode-ecology"
+23 info lifecycle seatar-lowcode-ecology@1.0.0~preversion: seatar-lowcode-ecology@1.0.0
+24 warn lifecycle The node binary used for scripts is /var/folders/qq/km_6c5710nb5whttqsh9lxwm0000gn/T/yarn--1676104231795-0.5775235408865405/node but npm is using /Users/zoubinjie/.nvm/versions/node/v14.21.2/bin/node itself. Use the `--scripts-prepend-node-path` option to include the path for the node binary npm was executed with.
+25 verbose lifecycle seatar-lowcode-ecology@1.0.0~preversion: unsafe-perm in lifecycle true
+26 verbose lifecycle seatar-lowcode-ecology@1.0.0~preversion: PATH: /Users/zoubinjie/dev/workspace/front_end/lowcode-ecology/node_modules/npm-lifecycle/node-gyp-bin:/Users/zoubinjie/dev/workspace/front_end/lowcode-ecology/node_modules/.bin:/var/folders/qq/km_6c5710nb5whttqsh9lxwm0000gn/T/yarn--1676104231795-0.5775235408865405:/Users/zoubinjie/dev/workspace/front_end/lowcode-ecology/node_modules/.bin:/Users/zoubinjie/.config/yarn/link/node_modules/.bin:/Users/zoubinjie/dev/workspace/front_end/lowcode-ecology/node_modules/.bin:/Users/zoubinjie/.nvm/versions/node/v14.21.2/libexec/lib/node_modules/npm/bin/node-gyp-bin:/Users/zoubinjie/.nvm/versions/node/v14.21.2/lib/node_modules/npm/bin/node-gyp-bin:/Users/zoubinjie/.nvm/versions/node/v14.21.2/bin/node_modules/npm/bin/node-gyp-bin:/Users/zoubinjie/.nvm/versions/node/v14.21.2/bin:/Users/zoubinjie/.nvm/versions/node/v18.14.0/bin:/Users/zoubinjie/.nvm/versions/node/v16.18.0/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/zoubinjie/.nvm/versions/node/v16.18.0/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin
+27 verbose lifecycle seatar-lowcode-ecology@1.0.0~preversion: CWD: /Users/zoubinjie/dev/workspace/front_end/lowcode-ecology
+28 silly lifecycle seatar-lowcode-ecology@1.0.0~preversion: Args: [
+28 silly lifecycle   '-c',
+28 silly lifecycle   'yarn install && git add -A && yarn run build && yarn run build:antd-materials && yarn run build:antd-pro-materials'
+28 silly lifecycle ]
+29 silly lifecycle seatar-lowcode-ecology@1.0.0~preversion: Returned: code: 0  signal: null
+30 silly lifecycle "preversion" finished in "seatar-lowcode-ecology"
+31 silly lifecycle No script for "preversion" in "@seatar/antd-setters", continuing
+32 silly lifecycle No script for "preversion" in "@seatar/build-plugin-lowcode", continuing
+33 silly lifecycle No script for "version" in "@seatar/antd-setters", continuing
+34 silly lifecycle No script for "preversion" in "@seatar/antd-plugins", continuing
+35 silly lifecycle No script for "version" in "@seatar/build-plugin-lowcode", continuing
+36 silly lifecycle No script for "preversion" in "@seatar/antd-materials", continuing
+37 silly lifecycle No script for "preversion" in "@seatar/antd-pro-materials", continuing
+38 silly lifecycle No script for "version" in "@seatar/antd-plugins", continuing
+39 silly lifecycle No script for "version" in "@seatar/antd-materials", continuing
+40 silly lifecycle No script for "version" in "@seatar/antd-pro-materials", continuing
+41 silly lifecycle No script for "version" in "seatar-lowcode-ecology", continuing
+42 silly gitAdd [
+42 silly gitAdd   'packages/antd-setters/package.json',
+42 silly gitAdd   'packages/build-plugin-lowcode/package.json',
+42 silly gitAdd   'packages/antd-plugins/package.json',
+42 silly gitAdd   'packages/antd-materials/package.json',
+42 silly gitAdd   'packages/antd-pro-materials/package.json',
+42 silly gitAdd   'packages/antd-pro-materials/package-lock.json',
+42 silly gitAdd   'lerna.json'
+42 silly gitAdd ]
+43 silly gitCommit chore(versions): 😊 publish v1.0.5
+44 verbose git [ 'commit', '-m', 'chore(versions): 😊 publish v1.0.5' ]
+45 silly gitTag v1.0.5
+46 verbose git [ 'tag', 'v1.0.5', '-m', 'v1.0.5' ]
+47 silly lifecycle No script for "postversion" in "@seatar/antd-materials", continuing
+48 silly lifecycle No script for "postversion" in "@seatar/antd-plugins", continuing
+49 silly lifecycle No script for "postversion" in "@seatar/antd-pro-materials", continuing
+50 silly lifecycle No script for "postversion" in "@seatar/antd-setters", continuing
+51 silly lifecycle No script for "postversion" in "@seatar/build-plugin-lowcode", continuing
+52 silly lifecycle No script for "postversion" in "seatar-lowcode-ecology", continuing
+53 info git Pushing tags...
+54 silly gitPush origin master
+55 error Error: Command failed: git push --follow-tags --no-verify --atomic origin master
+55 error fatal: unable to access 'https://github.com/rudyzou/seatar.git/': LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
+55 error
+55 error     at makeError (/Users/zoubinjie/dev/workspace/front_end/lowcode-ecology/node_modules/execa/index.js:174:9)
+55 error     at /Users/zoubinjie/dev/workspace/front_end/lowcode-ecology/node_modules/execa/index.js:278:16

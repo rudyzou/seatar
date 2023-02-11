@@ -1,6 +1,6 @@
 {
   "name": "@seatar/antd-pro-materials",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@alib/build-scripts": "^0.1.32",
-    "@seatar/build-plugin-lowcode": "1.0.5",
+    "@seatar/build-plugin-lowcode": "1.0.6",
     "build-plugin-component-multiple": "^1.0.0-beta.53"
   },
   "dependencies": {
@@ -33,7 +33,7 @@
     "@types/react": "^18.0.27"
   },
   "componentConfig": {
-    "materialSchema": "https://unpkg.com/@seatar/antd-pro-materials@1.0.4/build/lowcode/assets-prod.json"
+    "materialSchema": "https://unpkg.com/@seatar/antd-pro-materials@1.0.5/build/lowcode/assets-prod.json"
   },
   "publishConfig": {
     "access": "public"
