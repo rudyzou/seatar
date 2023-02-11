@@ -10,7 +10,7 @@ const ProModalMeta = {
   group: '高级组件',
   category: '弹窗类',
   npm: {
-    package: '@seada/antd-materials',
+    package: '@seatar/antd-pro-materials',
     version: 'latest',
     exportName: 'ProModal',
     main: '',

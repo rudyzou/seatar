@@ -10,7 +10,7 @@ const ProTableMeta = {
   group: '高级组件',
   category: '表格类',
   npm: {
-    package: '@seada/antd-materials',
+    package: '@seatar/antd-pro-materials',
     version: 'latest',
     exportName: 'ProTable',
     main: '',

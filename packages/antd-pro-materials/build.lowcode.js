@@ -55,15 +55,26 @@ module.exports = {
               },
               {
                 package: '@seatar/antd-materials',
-                version: '1.0.4',
+                version: '1.0.7',
                 library: 'AntdLowcode',
                 urls: [
-                  'https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.4/build/lowcode/view.js',
-                  'https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.4/build/lowcode/view.css'
+                  'https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.7/build/lowcode/view.js',
+                  'https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.7/build/lowcode/view.css'
                 ],
                 editUrls: [
-                  'https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.4/build/lowcode/view.js',
-                  'https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.4/build/lowcode/view.css'
+                  'https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.7/build/lowcode/view.js',
+                  'https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.7/build/lowcode/view.css'
+                ]
+              },
+              {
+                package: '@ant-design/pro-components',
+                version: '2.3.54',
+                library: 'ProComponents',
+                urls: [
+                  'https://cdn.jsdelivr.net/npm/@ant-design/pro-components@2.3.54/dist/pro-components.min.js'
+                ],
+                editUrls: [
+                  'https://cdn.jsdelivr.net/npm/@ant-design/pro-components@2.3.54/dist/pro-components.min.js'
                 ]
               }
             ],
@@ -72,12 +83,12 @@ module.exports = {
                 exportName: 'AlilcAntdLowcodeMaterialsMeta',
                 npm: {
                   package: '@seatar/antd-materials',
-                  version: '1.0.4'
+                  version: '1.0.7'
                 },
-                url: 'https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.4/build/lowcode/meta.js',
+                url: 'https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.7/build/lowcode/meta.js',
                 urls: {
                   default:
-                    'https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.4/build/lowcode/meta.js'
+                    'https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.7/build/lowcode/meta.js'
                 }
               }
             ],
