@@ -6,7 +6,7 @@
 0 silly argv }
 1 notice cli v3.22.1
 2 verbose rootPath /Users/zoubinjie/dev/workspace/front_end/lowcode-ecology
-3 info current version 1.0.3
+3 info current version 1.0.4
 4 silly isAnythingCommitted
 5 verbose isAnythingCommitted 1
 6 silly currentBranch
@@ -14,7 +14,7 @@
 8 silly remoteBranchExists
 9 silly isBehindUpstream
 10 error Error: Command failed: git remote update
-10 error fatal: unable to access 'https://github.com/rudyzou/seatar.git/': Failed to connect to github.com port 443: Operation timed out
+10 error fatal: unable to access 'https://github.com/rudyzou/seatar.git/': LibreSSL SSL_connect: Operation timed out in connection to github.com:443
 10 error error: Could not fetch origin
 10 error
 10 error Fetching origin

@@ -1,6 +1,6 @@
 {
   "name": "@seatar/antd-materials",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Antd for LowCode",
   "main": "lib/index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   ],
   "devDependencies": {
     "@alib/build-scripts": "^0.1.32",
-    "@seatar/build-plugin-lowcode": "^0.3.8",
+    "@seatar/build-plugin-lowcode": "1.0.5",
     "@types/lodash": "^4.14.181",
     "build-plugin-component": "^1.10.0",
     "build-plugin-moment-locales": "^0.1.0",
@@ -44,5 +44,5 @@
     "materialSchema": "https://alifd.alicdn.com/npm/@seatar/antd-materials@1.0.4/build/lowcode/assets-prod.json"
   },
   "license": "MIT",
-  "homepage": "https://unpkg.com/@seatar/antd-materials@1.0.3/build/index.html"
+  "homepage": "https://unpkg.com/@seatar/antd-materials@1.0.4/build/index.html"
 }
