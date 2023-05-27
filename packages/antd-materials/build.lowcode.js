@@ -24,8 +24,8 @@ module.exports = {
         entryPath: 'src/index.tsx',
         categories: ['通用', '导航', '信息输入', '信息展示', '信息反馈'],
         baseUrl: {
-          prod: `https://alifd.alicdn.com/npm/${name}@${version}`,
-          daily: `https://alifd.alicdn.com/npm/${name}@${version}`
+          prod: `https://unpkg.com/${name}@${version}`,
+          daily: `https://unpkg.com/${name}@${version}`
         },
         builtinAssets: [
           {
@@ -41,9 +41,7 @@ module.exports = {
               {
                 package: 'dayjs',
                 version: '1.11.7',
-                urls: [
-                  'https://cdn.jsdelivr.net/npm/dayjs@1.11.7/dayjs.min.js'
-                ],
+                urls: ['https://unpkg.com/dayjs@1.11.7/dayjs.min.js'],
                 library: 'dayjs'
               },
               {
@@ -61,16 +59,14 @@ module.exports = {
                 package: '@ant-design/icons',
                 version: '5.0.1',
                 urls: [
-                  'https://cdn.jsdelivr.net/npm/@ant-design/icons@5.0.1/dist/index.umd.min.js'
+                  'https://unpkg.com/@ant-design/icons@5.0.1/dist/index.umd.min.js'
                 ],
                 library: 'icons'
               },
               {
                 package: 'antd',
                 version: '5.1.7',
-                urls: [
-                  'https://cdn.jsdelivr.net/npm/antd@5.1.7/dist/antd.min.js'
-                ],
+                urls: ['https://unpkg.com/antd@5.1.7/dist/antd.min.js'],
                 library: 'antd'
               }
             ],

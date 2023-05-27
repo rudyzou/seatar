@@ -7,6 +7,12 @@
       "library": "moment"
     },
     {
+      "package": "dayjs",
+      "version": "1.11.7",
+      "urls": ["https://unpkg.com/dayjs@1.11.7/dayjs.min.js"],
+      "library": "dayjs"
+    },
+    {
       "package": "lodash",
       "library": "_",
       "urls": ["https://g.alicdn.com/platform/c/lodash/4.6.1/lodash.min.js"]
@@ -19,17 +25,14 @@
       "package": "@ant-design/icons",
       "version": "5.0.1",
       "urls": [
-        "https://cdn.jsdelivr.net/npm/@ant-design/icons@5.0.1/dist/index.umd.min.js"
+        "https://unpkg.com/@ant-design/icons@5.0.1/dist/index.umd.min.js"
       ],
       "library": "icons"
     },
     {
       "package": "antd",
       "version": "5.1.7",
-      "urls": [
-        "https://cdn.jsdelivr.net/npm/antd@5.1.7/dist/antd.min.js",
-        "https://cdn.jsdelivr.net/npm/antd@5.1.7/dist/reset.min.css"
-      ],
+      "urls": ["https://unpkg.com/antd@5.1.7/dist/antd.min.js"],
       "library": "antd"
     },
     {
@@ -44,105 +47,69 @@
     },
     {
       "package": "@seatar/antd-materials",
-      "version": "1.0.4",
+      "version": "1.0.10",
       "library": "AntdLowcode",
       "urls": [
-        "https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.4/build/lowcode/render/default/view.js",
-        "https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.4/build/lowcode/render/default/view.css"
+        "https://unpkg.com/@seatar/antd-materials@1.0.10/build/lowcode/render/default/view.js",
+        "https://unpkg.com/@seatar/antd-materials@1.0.10/build/lowcode/render/default/view.css"
       ],
       "editUrls": [
-        "https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.4/build/lowcode/view.js",
-        "https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.4/build/lowcode/view.css"
+        "https://unpkg.com/@seatar/antd-materials@1.0.10/build/lowcode/view.js",
+        "https://unpkg.com/@seatar/antd-materials@1.0.10/build/lowcode/view.css"
       ],
       "advancedUrls": {
         "default": [
-          "https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.4/build/lowcode/render/default/view.js",
-          "https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.4/build/lowcode/render/default/view.css"
+          "https://unpkg.com/@seatar/antd-materials@1.0.10/build/lowcode/render/default/view.js",
+          "https://unpkg.com/@seatar/antd-materials@1.0.10/build/lowcode/render/default/view.css"
         ]
       },
       "advancedEditUrls": {}
     },
     {
-      "package": "@seada/antd-pro-materials",
-      "version": "1.0.4",
-      "library": "SeadaAntdMaterials",
+      "package": "@seatar/antd-pro-materials",
+      "version": "1.0.10",
+      "library": "SeatarAntdProMaterials",
       "urls": [
-        "https://cdn.jsdelivr.net/npm/@seatar/antd-pro-materials@1.0.4/build/lowcode/render/default/view.js",
-        "https://cdn.jsdelivr.net/npm/@seatar/antd-pro-materials@1.0.4/build/lowcode/render/default/view.css"
+        "https://unpkg.com/@seatar/antd-pro-materials@1.0.10/build/lowcode/render/default/view.js",
+        "https://unpkg.com/@seatar/antd-pro-materials@1.0.10/build/lowcode/render/default/view.css"
       ],
       "editUrls": [
-        "https://cdn.jsdelivr.net/npm/@seatar/antd-pro-materials@1.0.4/build/lowcode/view.js",
-        "https://cdn.jsdelivr.net/npm/@seatar/antd-pro-materials@1.0.4/build/lowcode/view.css"
+        "https://unpkg.com/@seatar/antd-pro-materials@1.0.10/build/lowcode/view.js",
+        "https://unpkg.com/@seatar/antd-pro-materials@1.0.10/build/lowcode/view.css"
       ],
       "advancedUrls": {
         "default": [
-          "https://cdn.jsdelivr.net/npm/@seatar/antd-pro-materials@1.0.4/build/lowcode/render/default/view.js",
-          "https://cdn.jsdelivr.net/npm/@seatar/antd-pro-materials@1.0.4/build/lowcode/render/default/view.css"
+          "https://unpkg.com/@seatar/antd-pro-materials@1.0.10/build/lowcode/render/default/view.js",
+          "https://unpkg.com/@seatar/antd-pro-materials@1.0.10/build/lowcode/render/default/view.css"
         ]
       }
-    },
-    {
-      "package": "@seada/rich-editor",
-      "version": "0.1.6",
-      "library": "SeadaRichEditor",
-      "urls": [
-        "https://unpkg.com/@seada/rich-editor@0.1.6/build/lowcode/render/default/view.js",
-        "https://unpkg.com/@seada/rich-editor@0.1.6/build/lowcode/render/default/view.css"
-      ],
-      "editUrls": [
-        "https://unpkg.com/@seada/rich-editor@0.1.6/build/lowcode/view.js",
-        "https://unpkg.com/@seada/rich-editor@0.1.6/build/lowcode/view.css"
-      ],
-      "advancedUrls": {
-        "default": [
-          "https://unpkg.com/@seada/rich-editor@0.1.6/build/lowcode/render/default/view.js",
-          "https://unpkg.com/@seada/rich-editor@0.1.6/build/lowcode/render/default/view.css"
-        ]
-      },
-      "advancedEditUrls": {}
     }
   ],
   "components": [
     {
-      "exportName": "SeatarAntdMaterials",
+      "exportName": "SeatarAntdProMaterialsMeta",
       "npm": {
         "package": "@seatar/antd-pro-materials",
-        "version": "1.0.4"
+        "version": "1.0.10"
       },
-      "url": "https://cdn.jsdelivr.net/npm/@seatar/antd-pro-materials@1.0.4/build/lowcode/meta.js",
+      "url": "https://unpkg.com/@seatar/antd-pro-materials@1.0.10/build/lowcode/meta.js",
       "urls": {
-        "default": "https://cdn.jsdelivr.net/npm/@seatar/antd-pro-materials@1.0.4/build/lowcode/meta.js"
+        "default": "https://unpkg.com/@seatar/antd-pro-materials@1.0.10/build/lowcode/meta.js"
       }
     },
     {
-      "exportName": "AntdLowcode",
+      "exportName": "SeatarAntdMaterialsMeta",
       "npm": {
         "package": "@seatar/antd-materials",
-        "version": "1.0.4"
+        "version": "1.0.10"
       },
-      "url": "https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.4/build/lowcode/meta.js",
+      "url": "https://unpkg.com/@seatar/antd-materials@1.0.10/build/lowcode/meta.js",
       "urls": {
-        "default": "https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.4/build/lowcode/meta.js"
+        "default": "https://unpkg.com/@seatar/antd-materials@1.0.10/build/lowcode/meta.js"
       },
       "advancedUrls": {
         "default": [
-          "https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.4/build/lowcode/meta.js"
-        ]
-      }
-    },
-    {
-      "exportName": "SeadaRichEditorMeta",
-      "npm": {
-        "package": "@seada/rich-editor",
-        "version": "0.1.6"
-      },
-      "url": "https://unpkg.com/@seada/rich-editor@0.1.6/build/lowcode/meta.js",
-      "urls": {
-        "default": "https://unpkg.com/@seada/rich-editor@0.1.6/build/lowcode/meta.js"
-      },
-      "advancedUrls": {
-        "default": [
-          "https://unpkg.com/@seada/rich-editor@0.1.6/build/lowcode/meta.js"
+          "https://unpkg.com/@seatar/antd-materials@1.0.10/build/lowcode/meta.js"
         ]
       }
     }

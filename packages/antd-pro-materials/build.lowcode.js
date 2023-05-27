@@ -21,9 +21,7 @@ module.exports = {
               {
                 package: 'dayjs',
                 version: '1.11.7',
-                urls: [
-                  'https://cdn.jsdelivr.net/npm/dayjs@1.11.7/dayjs.min.js'
-                ],
+                urls: ['https://unpkg.com/dayjs@1.11.7/dayjs.min.js'],
                 library: 'dayjs'
               },
               {
@@ -41,29 +39,27 @@ module.exports = {
                 package: '@ant-design/icons',
                 version: '5.0.1',
                 urls: [
-                  'https://cdn.jsdelivr.net/npm/@ant-design/icons@5.0.1/dist/index.umd.min.js'
+                  'https://unpkg.com/@ant-design/icons@5.0.1/dist/index.umd.min.js'
                 ],
                 library: 'icons'
               },
               {
                 package: 'antd',
                 version: '5.1.7',
-                urls: [
-                  'https://cdn.jsdelivr.net/npm/antd@5.1.7/dist/antd.min.js'
-                ],
+                urls: ['https://unpkg.com/antd@5.1.7/dist/antd.min.js'],
                 library: 'antd'
               },
               {
                 package: '@seatar/antd-materials',
-                version: '1.0.7',
+                version: '1.0.10',
                 library: 'AntdLowcode',
                 urls: [
-                  'https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.7/build/lowcode/view.js',
-                  'https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.7/build/lowcode/view.css'
+                  'https://unpkg.com/@seatar/antd-materials@1.0.10/build/lowcode/view.js',
+                  'https://unpkg.com/@seatar/antd-materials@1.0.10/build/lowcode/view.css'
                 ],
                 editUrls: [
-                  'https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.7/build/lowcode/view.js',
-                  'https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.7/build/lowcode/view.css'
+                  'https://unpkg.com/@seatar/antd-materials@1.0.10/build/lowcode/view.js',
+                  'https://unpkg.com/@seatar/antd-materials@1.0.10/build/lowcode/view.css'
                 ]
               },
               {
@@ -71,10 +67,10 @@ module.exports = {
                 version: '2.3.54',
                 library: 'ProComponents',
                 urls: [
-                  'https://cdn.jsdelivr.net/npm/@ant-design/pro-components@2.3.54/dist/pro-components.min.js'
+                  'https://unpkg.com/@ant-design/pro-components@2.3.54/dist/pro-components.min.js'
                 ],
                 editUrls: [
-                  'https://cdn.jsdelivr.net/npm/@ant-design/pro-components@2.3.54/dist/pro-components.min.js'
+                  'https://unpkg.com/@ant-design/pro-components@2.3.54/dist/pro-components.min.js'
                 ]
               }
             ],
@@ -83,12 +79,12 @@ module.exports = {
                 exportName: 'AlilcAntdLowcodeMaterialsMeta',
                 npm: {
                   package: '@seatar/antd-materials',
-                  version: '1.0.7'
+                  version: '1.0.10'
                 },
-                url: 'https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.7/build/lowcode/meta.js',
+                url: 'https://unpkg.com/@seatar/antd-materials@1.0.10/build/lowcode/meta.js',
                 urls: {
                   default:
-                    'https://cdn.jsdelivr.net/npm/@seatar/antd-materials@1.0.7/build/lowcode/meta.js'
+                    'https://unpkg.com/@seatar/antd-materials@1.0.10/build/lowcode/meta.js'
                 }
               }
             ],
