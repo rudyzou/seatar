@@ -4,7 +4,9 @@ dist
 lib
 esm
 es
-##package-lock.json
+package-lock.json
+.log
+yarn.lcok
 .tmp
 build
 .DS_Store
